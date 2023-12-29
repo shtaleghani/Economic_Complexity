@@ -1,4 +1,4 @@
-# Economic-Complexity
+# Export-Growth
 our goal is to examine the effects of various factors on export growth, These factors are i) the maximum proximity of the product, which countries export with high Relative Comparative Advantage (RCA), ii) the ratio of exports of that product in the neighboring countries, and iii) the product complexity. here we calculate the variables and finally we estimate the model with Eviews.
 # Maximum proximity
 The proximity between products i and j is defined as the minimum of the pairwise conditional probabilities of a country exporting product i and product j at the same time.
