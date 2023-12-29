@@ -22,3 +22,6 @@ NBRCA  is calculated as follows:
 
 Where n_(c^' ) is the number of neighbors that country has. For example, if a country has five neighbors and three of them export product p with RCA>1 then the NBRCA will be 3\/5.
 
+# Data
+We collected international trade data from UN-COMTRADE for the years 2014 and 2018 for 164 countries and 1250 products. We used the HS 1992 4DIGITS product's classification (see https://comtrade.un.org/data/)
+The data on GDP were obtained from the world bank online database. (see  https://data.worldbank.org/indicator/NY.GDP.MKTP.CD)
