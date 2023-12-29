@@ -1,5 +1,5 @@
 # Export-Growth
-our goal is to examine the effects of various factors on export growth, These factors are i) the maximum proximity of the product, which countries export with high Relative Comparative Advantage (RCA), ii) the ratio of exports of that product in the neighboring countries, and iii) the product complexity. here we calculate the variables and finally we estimate the model with Eviews.
+Our goal is to examine the effects of various factors on export growth, These factors are i) the maximum proximity of the product, which countries export with high Relative Comparative Advantage (RCA), ii) the ratio of exports of that product in the neighboring countries, and iii) the product complexity. here we calculate the variables and finally we estimate the model with EViews.
 # Maximum proximity
 The proximity between products i and j is defined as the minimum of the pairwise conditional probabilities of a country exporting product i and product j at the same time.
 
@@ -14,7 +14,7 @@ Maximum proximity is computed as follows:
 
 ![MAXPROX](https://github.com/shtaleghani/economic-complexity/assets/126946750/7408c6bb-3598-43e0-a33b-c707b2f253e8)
 
-where Π(c) is the set of products with RCA>1 for country c.
+Where Π(c) is the set of products with RCA>1 for country c.
 
 We collected international trade data from UN-COMTRADE for the years 2014 and 2018 for 164 countries and 1250 products. We used the HS 1992 4DIGITS product's classification (see https://comtrade.un.org/data/)
 
@@ -25,5 +25,3 @@ NBRCA  is calculated as follows:
 
 Where n_(c^' ) is the number of neighbors that country has. For example, if a country has five neighbors and three of them export product p with RCA>1 then the NBRCA will be 3\/5.
 
-# PCI
-The third independent variable is PCI. We added the product complexity index to our model in order to understand if the level of product complexity affects export growth.
